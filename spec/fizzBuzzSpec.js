@@ -11,6 +11,9 @@ describe("FizzBuzz", function(){
     expect(fizzbuzz.isDivisibleByThree(1)).toBe(true);
     });
 
+    it ('divisible by 15', function() {
+    expect(fizzbuzz.isDivisibleByFifteen(30)).toBe(true);
+	  });
   });
 
   describe('When number is NOT', function() {
@@ -21,5 +24,9 @@ describe("FizzBuzz", function(){
     it ('divisible by 3', function() {
       expect(fizzbuzz.isDivisibleByThree(4)).toBe(false);
     });
+
+    it ('divisible by 15', function() {
+    expect(fizzbuzz.isDivisibleByFifteen(20)).toBe(false);
+	  });
   });
 });
