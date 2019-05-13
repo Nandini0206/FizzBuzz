@@ -34,9 +34,11 @@ describe("FizzBuzz", function(){
     it('retun "Fizz" if divisible by 3', function() {
       expect(fizzbuzz.says(6)).toEqual("Fizz")
     });
+
     it('return "Buzz" if divisible by 5', function() {
       expect(fizzbuzz.says(10)).toEqual("Buzz")
     });
+    
     it('return "FizzBuzz" if divisible by 15', function() {
       expect(fizzbuzz.says(15)).toEqual("FizzBuzz")
     });
