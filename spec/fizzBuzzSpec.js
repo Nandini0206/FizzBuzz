@@ -30,7 +30,7 @@ describe("FizzBuzz", function(){
 	  });
   });
 
-  describe('when playing,', function() {
+  describe('when playing', function() {
     it('retun "Fizz" if divisible by 3', function() {
       expect(fizzbuzz.says(6)).toEqual("Fizz")
     });
