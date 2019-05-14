@@ -1,6 +1,6 @@
 ## JavaBuzz
 
-#This game in python has the following specifications:
+This game in python has the following specifications:
 
 - Prints the numbers from 1 to 100.
 - For multiples of three prints “Fizz” instead of the number.
